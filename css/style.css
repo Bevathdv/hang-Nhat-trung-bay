@@ -92,3 +92,49 @@ h1 {
 .back-button:hover {
   background-color: #0056b3;
 }
+
+@media (max-width: 600px) {
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    font-size: 20px;
+    padding: 12px;
+    margin: 20px 10px;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 0 10px;
+  }
+
+  .product-card {
+    padding: 14px;
+  }
+
+  .product-name {
+    font-size: 16px;
+    margin: 10px 0 6px;
+  }
+
+  .product-price {
+    font-size: 14px;
+  }
+
+  .buy-button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+  }
+
+  .back-button {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    padding: 14px 0;
+    margin-top: 20px;
+  }
+}

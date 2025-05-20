@@ -58,3 +58,41 @@
 .back-button:hover {
   background-color: #0056b3;
 }
+
+@media (max-width: 600px) {
+  .product-detail {
+    margin: 20px 15px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .product-images {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .product-images img {
+    height: 160px;
+    border-radius: 6px;
+  }
+
+  .product-description {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .product-description ul {
+    padding-left: 16px;
+  }
+
+  .product-description li {
+    margin-bottom: 5px;
+  }
+
+  .back-button {
+    width: 100%;
+    font-size: 16px;
+    padding: 14px 0;
+    text-align: center;
+  }
+}
