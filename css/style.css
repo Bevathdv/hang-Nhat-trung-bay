@@ -1,3 +1,9 @@
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
   background-image: url('https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/470116068_8744800195589089_4668249442447139048_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=HnQeCermMGoQ7kNvwGBQoKI&_nc_oc=AdkPn_zvi8btFpBI-ssFMMmaozdDDCesnxtf6hZXRX0-jJN8NJ1IUC5abKEs7-zKRhA&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=PPc_BFNAzauc3Kr3UV8auw&oh=00_AfJTZaAHQRubJcMu0fQGrEjtALW4yabpOHxIachJX0MBsA&oe=68319331');
   background-size: cover;         /* Resize to fill the screen */
@@ -17,9 +23,28 @@ h1 {
   background-repeat: no-repeat;   /* Don’t repeat */
   background-attachment: fixed;   /* Optional: fix while scrolling */
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgb(0, 0, 0);
   padding: 16px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  color: rgb(205, 129, 53);
+  -webkit-text-stroke: 2px black;
+  font-size:  60px;
+}
+
+h2 {
+  text-align: center;
+  background-image: url('https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/494975958_9587732351295865_1070652946433433500_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=sCnDRh_kvvYQ7kNvwEyvOzx&_nc_oc=AdnFBeszW9ETnHSbDAQYQ_V6XEaFy5Yog6A9lQt_733BX8AI1ufO-Ns3i9XEzF0CNAM&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=6mPoeowp0rA4BApevu183A&oh=00_AfIR32JefbX47ES_v_uMAWAi9c6oyi9j_qQ06L25nh8Y7Q&oe=6831C16B');
+  background-size: cover;         /* Resize to fill the screen */
+  background-position: center;    /* Center the image */
+  background-repeat: no-repeat;   /* Don’t repeat */
+  background-attachment: fixed;   /* Optional: fix while scrolling */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(0, 0, 0);
+  padding: 16px;
+  margin-bottom: 45px;
+  color: rgb(183, 187, 56);
+  -webkit-text-stroke: 1.5px black;
+   font-size: 48px;
 }
 
 .product-grid {
@@ -75,6 +100,25 @@ h1 {
   color: inherit;
 }
 
+.featured-card {
+  width: 100%;
+  max-width: 1000px;
+  height: 400px;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.featured-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+  display: block;
+  border-radius: 12px;
+}
+
 /* Back button */
 .back-button {
   display: inline-block;
@@ -91,6 +135,80 @@ h1 {
 
 .back-button:hover {
   background-color: #0056b3;
+}
+
+/* Hamburger Icon */
+.menu-toggle {
+  font-size: 28px;
+  cursor: pointer;
+  position: fixed;
+  top: 55px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 14px;
+  border-radius: 6px;
+  z-index: 1001;
+  transition: background 0.3s ease;
+}
+
+.menu-toggle:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Side Menu */
+.side-menu {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  background-color: #ffffff;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+  padding: 30px 20px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+.side-menu.open {
+  left: 0;
+}
+
+.side-menu h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-menu ul li {
+  margin-bottom: 15px;
+}
+
+.side-menu ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.side-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
 }
 
 @media (max-width: 600px) {
