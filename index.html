@@ -15,11 +15,20 @@
 
   <h2>🪄!HÀNG HOT THÁNG NÀY!🪄</h2>
 
-  <div class="featured-card">
-  <a href="pages/feautures.html" id="featured-link">
-    <img id="featured-image" src="pictures/1.jpg" alt="Featured Product">
-  </a>
-</div>
+  <div class="yours-slider"> 
+    <a class="yours-slide-link" href="#">
+      <div class="yours-slide">
+        <img src="pictures/1.jpg" alt="Product 1">
+        <div class="yours-info">
+          <h2 class="yours-title">Fucoidan Xanh OKINAWA</h2>
+          <p class="yours-description">- Fucoidan Xanh OKINAWA là thực phẩm hỗ trợ sức khỏe được chiết xuất từ rong nâu Mozuku vùng Okinawa – Nhật Bản, giàu Fucoidan nguyên chất kết hợp cùng các vi chất quý như i-ốt, natri và polysaccharide. Sản phẩm giúp tăng cường hệ miễn dịch, hỗ trợ tiêu hóa, thanh lọc cơ thể và đặc biệt hữu ích trong việc hỗ trợ phòng ngừa, điều trị ung thư. Đây là lựa chọn lý tưởng cho người đang điều trị bệnh hoặc muốn nâng cao sức khỏe lâu dài một cách an toàn và tự nhiên.</p>
+        </div>
+      </div>
+    </a>
+   <!-- Navigation Buttons -->
+    <button id="prevBtn" class="slider-btn prev">❮</button>
+    <button id="nextBtn" class="slider-btn next">❯</button>
+  </div>
 
   <!-- Hamburger Menu Button -->
   <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">☰</div>
@@ -37,19 +46,66 @@
   </div>
 
   <div class="product-grid">
-    <!-- Your product cards (unchanged) -->
-    <!-- ... -->
-  </div>
+    <!-- Product 1 (clickable) -->
+        <a href="products/health/product1.1.html" class="product-link">
+            <div class="product-card">
+                <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/497647101_9715716461830786_4432127626803408342_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=hD8hbjKVKnEQ7kNvwEVXsE_&_nc_oc=AdmgkGhvRXyd4jPMbkXqkzuEqW_2Aou1I-bPKE5EIQseAqRbR1wAxTSuyGV2wztqBGk&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=LcesZKCJOFvXIZDsdJj5xA&oh=00_AfJ0B0JNEHuDbzusdtOU4Y_rzrCxYOwxQWLwZaVQAxfV0w&oe=6831B445" alt="Product 1">
+                <div class="product-name">Fucoidan Xanh OKINAWA</div>
+                <div class="product-price">5000đ</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </a>
 
-<div class="product-card" id="productCard">
-  <a id="productLink" href="#">
-    <img id="productImage" src="" alt="Product Image" />
-    <div class="product-info" id="productInfo">
-      <h2 id="productName"></h2>
-      <p id="productDescription"></p>
-    </div>
-  </a>
-</div>
+    <!-- Product 4 (clickable) -->
+        <a href="../products/beauty/product1.2.html" class="product-link">
+            <div class="product-card">
+                <img src="https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/487311287_9374361309299638_3377958872886105547_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LOQoM8UN3ksQ7kNvwHyY-HQ&_nc_oc=AdmHl9Hca4tp2CzHHS2HaeaYycoC9jqPWRJRjftjQq88e-a2gQcte1w180UvJMBV5xU&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=MPKdZn6ZwFkWE7N6eps1tA&oh=00_AfI2DH-JrwSX9EkNuEJCmhs-tqBP24kn8g50D_RIe2LKcA&oe=6831C83C">
+                <div class="product-name">Kem Chống Nắng Anessa Tone Up Brightening UV Sunscreen Gel 90g</div>
+                <div class="product-price">$29.99</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </a>
+
+     <!-- Product 3 (clickable) -->
+        <a href="product1.html" class="product-link">
+            <div class="product-card">
+                <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/487304605_9374361429299626_6690572032281142294_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Dz498Z-qEJ4Q7kNvwGrYpiw&_nc_oc=AdlsoeEyiSJC4S98UgalIWmrEytCHJPpPKqb9Dq1XtAKk4sszV9wgBXSmBLvwJZheMI&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=i1qLc8jwHUgHvJtt28YAsA&oh=00_AfJkR9TU2bRxyd1_5D9uknIwYp1aNVT7J3c4oGSUXvzr4w&oe=683197EA" alt="Product 1">
+                <div class="product-name">Dầu gội SALONLINK</div>
+                <div class="product-price">$29.99</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </a>
+
+     <!-- Product 5 (clickable) -->
+        <a href="product1.html" class="product-link">
+            <div class="product-card">
+                <img src="https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/487239592_9374361192632983_5238021511606850246_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_W9fZUgw6fwQ7kNvwFH_Nn3&_nc_oc=Adn-J10s9F75VxjbOYr-1XLzWPy-T4s-2oQy2RgxgvrxgVMnpo5M8dziodTuWSbh8ms&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=7ybC1ipgu0HA00PYbzqCeA&oh=00_AfL-0JM-l5UJ90XSqHmhe8VV5mx-pOIL_6HGnFKhpWzc3w&oe=6831ABF3">
+                <div class="product-name">𝐓𝐇𝐄 𝐂𝐎𝐋𝐋𝐀𝐆𝐄𝐍 𝐄𝐗𝐑 𝐒𝐇𝐈𝐒𝐄𝐈𝐃𝐎</div>
+                <div class="product-price">$29.99</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </a>
+
+     <!-- Product 6 (clickable) -->
+        <a href="product1.html" class="product-link">
+            <div class="product-card">
+                <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/487312374_9374361179299651_806055249803733420_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ie2OioqUOXgQ7kNvwGYZNb1&_nc_oc=Adlh4oPbv1a5hlJskJkjrgDsmeRfoNTR4bhLm3ZWq5zW6xogtA1M6KG8h35v994lqF8&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=ddpDtuBiLrHP3sZSD8t3nQ&oh=00_AfIus1WQnnZcRQJULwV7ANbQkcc_dMFiYPJTd-R-SdW7Fg&oe=6831B2CA" alt="Product 1">
+                <div class="product-name">SET SKII MINI 7 MÓN NỘI ĐỊA NHẬT</div>
+                <div class="product-price">$29.99</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </a>
+
+  <!-- Product 2 (clickable) -->
+        <a href="../products/food/product1.3.html" class="product-link">
+            <div class="product-card">
+                <img src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/497506111_9696334847102281_5151125580503612580_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7c9La0GsMm0Q7kNvwGwSagf&_nc_oc=AdnJgq-pJ4sfj7AdxRKOdX6OLxRTluLvVG9QXnvE1hdupkil_2GX4vpWwlz0X4SlmUU&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=MxLRMQlfMHRMctiaNFX4Hw&oh=00_AfJbzeuyiXq0F6OpI-RCpOQ2MuqGXw9RjWQbApsbXCmecA&oe=68319D89" alt="Product 1">
+                <div class="product-name">Khô mực tẩm Wasabi <br><br>(Mù Tạt)</div>
+                <div class="product-price">$29.99</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </a>
+  </div>
 
   <!-- ✅ Working toggle script -->
   <script>

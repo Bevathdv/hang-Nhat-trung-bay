@@ -1,4 +1,19 @@
 /* Main product detail container */
+h3 {
+  text-align: center;
+  background-image: url(https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/468053892_8643137189088724_8928593553065070426_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=RjOxfbnKYLsQ7kNvwFxLcG_&_nc_oc=AdkTvRNb7znoEsz-uEwnaOiUxtyX1-Ol2HAa5p2lVeB6jRN24EbHN4slFbR0YYUMmco&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=-XAJ1d263tqEFnPIfuAvig&oh=00_AfKu656MGkR3nEh5VVxXm1guIOfDP477jhjehf0vTYZ8PQ&oe=68342969);
+  background-size: cover;         /* Resize to fill the screen */
+  background-position: center;    /* Center the image */
+  background-repeat: no-repeat;   /* Don’t repeat */
+  background-attachment: fixed;   /* Optional: fix while scrolling */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(0, 0, 0);
+  padding: 16px;
+  margin-bottom: 45px;
+  color: rgb(183, 187, 56);
+  -webkit-text-stroke: 1.5px black;
+   font-size: 35px;
+}
 .product-detail {
   max-width: 850px;
   margin: 40px auto;
