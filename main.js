@@ -79,9 +79,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   slider.addEventListener("mouseenter", () => clearInterval(intervalId));
   slider.addEventListener("mouseleave", () => {
-    intervalId = setInterval(nextSlide, 10000);
+    intervalId = setInterval(nextSlide, 8000);
   });
 
   showSlide(current);
-  intervalId = setInterval(nextSlide, 10000);
+  intervalId = setInterval(nextSlide, 8000);
 });
